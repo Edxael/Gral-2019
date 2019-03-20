@@ -1,4 +1,64 @@
 
+// NO DUPS
+
+// const noDups = (arr) => {
+//   console.log(arr)
+
+//   // return new Set(arr)
+
+//   singles = arr.reduce((pv, cv) => {
+//     pv[cv] = pv[cv] + 1 || 1
+//     return pv
+//   }, {})
+
+//   let answer = Object.keys(singles)
+//   return answer
+
+// }
+
+
+// ==================================================
+// const noDups = (arr) => {
+//   console.log(arr)
+//   return Array.from(new Set(arr))
+// }
+
+
+// ==================================================
+// const noDups = (arr) => {
+//   console.log(arr)
+//   let singles = []
+
+//   for(x = 0; x <= arr.length; x++){
+//     if(!singles.includes(arr[x])){
+//       if(arr[x] !== undefined){
+//         singles.push(arr[x])
+//       }
+//     }
+//   }
+
+//   return singles
+// }
+
+
+
+
+console.log(noDups(['a', 'p', 'p', 'l', 'e']))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // const rwr = (str) => {
 
 //   let answer = ''
@@ -31,4 +91,14 @@ const rwr = (str) => {
 //   }, '')
 // }
 
-console.log(rwr('cara'))
+// console.log(rwr('cara'))
+
+
+
+
+
+// const isUnique = (str) => {
+//   return new Set(str).size === str.length
+// }
+
+// console.log(isUnique('sun'))
